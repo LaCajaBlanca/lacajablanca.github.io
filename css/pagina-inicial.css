@@ -1,0 +1,101 @@
+/*
+ * La Caja Blanca - pagina-inicial.css
+ */
+
+/* Globales */
+body    { font-family: 'Cinzel', serif; }
+hr      { border-color: #808080; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6      { font-family: 'Cinzel', serif; }
+a {
+  color: #404040;
+}
+a:hover,
+a:focus {
+  color: #606060;
+}
+
+/* Particulares */
+.bg-primary {
+  background-color: #F05F40;
+}
+.navbar-default .navbar-header .navbar-brand {
+  color: #FFFFFF;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #606060;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #808080;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #808080 !important;
+  background-color: transparent;
+}
+.btn-primary {
+  color: white;
+  background-color: #808080;
+  border-color: #404040;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #404040;
+  border-color: #808080;
+}
+.text-primary {
+  color: #404040;
+}
+
+/* Responsivos */
+@media (min-width: 768px) {
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #808080;
+  }
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #646464;
+  }
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #222222;
+  }
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #808080;
+  }
+}
+
+/* Cabecera */
+header {
+  background-image: url('../imagenes/header.jpg');
+}
+header .header-content .header-content-inner h1 {
+  text-shadow: 2px 2px 2px #000000;
+}
+header .header-content .header-content-inner p {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+/* Carrusel */
+.carousel-inner > .item > img { width:100%; }
+
+/* Colores de fondo */
+.fondo-gris1 { background-color:#D2D2D2; }
+.fondo-gris2 { background-color:#BCBCBC; }
+.fondo-gris3 { background-color:#B0B0B0; }
+.fondo-plata { background-color:#BDD6DB; }
