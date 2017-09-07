@@ -13,6 +13,7 @@ h5,
 h6      { font-family: 'Cinzel', serif; }
 a {
   color: #404040;
+  font-weight: bold;
 }
 a:hover,
 a:focus {
