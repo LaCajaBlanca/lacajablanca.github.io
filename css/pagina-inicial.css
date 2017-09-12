@@ -95,7 +95,7 @@ a:focus {
   .carousel-inner { height:200px; }
 }
 
-//* Cabecera */
+/* Cabecera */
 header {
   background-image: url('../imagenes/header.jpg');
 }
