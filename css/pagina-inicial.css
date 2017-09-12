@@ -100,3 +100,8 @@ header .header-content .header-content-inner p {
 .fondo-gris2 { background-color:#BCBCBC; }
 .fondo-gris3 { background-color:#B0B0B0; }
 .fondo-plata { background-color:#BDD6DB; }
+
+/* aviso de privacidad */
+#aviso {background-color: #d0d0d0;}
+.aviso-privacidad { font-family:Arial; }
+
