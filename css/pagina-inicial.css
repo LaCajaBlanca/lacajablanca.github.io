@@ -76,9 +76,26 @@ a:focus {
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #808080;
   }
+  .carousel-inner { height:400px; }
 }
 
-/* Cabecera */
+@media (min-width: 800px) {
+  .carousel-inner { height:340px; }
+}
+
+@media (min-width: 1000px) {
+  .carousel-inner { height:300px; }
+}
+
+@media (min-width: 1200px) {
+  .carousel-inner { height:260px; }
+}
+
+@media (min-width: 8000px) {
+  .carousel-inner { height:200px; }
+}
+
+//* Cabecera */
 header {
   background-image: url('../imagenes/header.jpg');
 }
@@ -105,3 +122,6 @@ header .header-content .header-content-inner p {
 #aviso {background-color: #d0d0d0;}
 .aviso-privacidad { font-family:Arial; }
 
+/* términos y condiciones */
+#terminos {background-color: #d0d0d0;}
+.terminos-condiciones { font-family:Arial; }
